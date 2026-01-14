@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Zoom Controls</Title>
+  <Description>
+      <![CDATA[<p>This example creates a very simple GUI application: 3 buttons are used to control the zoom settings of a simple 3D camera based scene. Next to 
+      zooming in and out a third button allows to reset the zoom setting in order to show all content of the scene. This differs from the regular Camera.Reset() 
+      method! The ShowAll() method implemented here takes the actual extend of the combined objects in the scene into account and adjusts the Camera.ZoomFactor
+      property according to the real extend.</p>
+      <p>ShowAll() is implemented as an extension method for demonstration purposes.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
