@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Axis Lines Configuration</Title>
+  <Description>
+    A simple plotting example, showing how to configure plot cube's axes lines, tick lines, plot cube lines (width and color).
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

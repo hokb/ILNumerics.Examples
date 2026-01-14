@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Forward &amp; Backward FFT with Hanning Window</Title>
+  <Description>
+    This example implements FFT operations. It first generates and applies a window function to a sampled signal and transforms the 
+    result into the frequency domain. Some simple modifications are made to the frequency spectrum before the 
+    'signal' is transformed back into the time domain. This example does not utilize a Computing Module but rather implements the 
+    simple code directly into the one and only method of a console application. 
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     

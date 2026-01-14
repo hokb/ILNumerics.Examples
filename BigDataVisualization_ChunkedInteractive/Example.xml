@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive, Huge HDF5 Data Visualization</Title>
+  <Description>
+    <p>This example creates a huge HDF5 file with marked random values. It reads equally spaced chunks from HDF5 file and displays them in a regular plot cube. The 
+    chunk sizes used for displaying and for storing the data in the HDF5 file are arbitrary and can be varied.</p>
+    <p>The view can be panned in X direction by dragging with the right mouse button. Three buttons are provided
+      to jump to the next (right) chunk, to the previous chunk or to a random section in the file.</p>
+    <p>Mouse interaction is restricted to the X-direction. All other mouse events on the scene are disabled.
+      The example generates random sample data at the first start. Data are automatically recreated when the user
+      changes one of the relevant parameters. The default data size is ~1M x 512 values. Data from all but the first HDF5 chunk
+    are marked with vertical lines to make it easier to navigate through the file. Note that several "pages" 
+  fit into the first HDF5 chunk. So click on "Next" a couple of times in order to get to the first HDF5 chunk break.</p>
+    <p>
+      <a href="/apidoc/?topic=html/T_ILNumerics_Drawing_Plotting_ILFastSurface.htm">FastSurface</a> is used to
+      visualize the data mesh. Colormapped rendering on the surface and the data limits are configured
+      only at startup. Subsequent render frames do only update those parameters/data which have really changed.
+      The surface updates its Z values only. In order to place the surface over the visible section of the data space
+      the surface is translated in the plotcube by help of a Group object. This saves one from having to update
+      X axis data in each frame.
+    </p>
+    <p>In order to test for performance do run this example in Release mode, without a debugger attached (as always).</p>
+    <p>Tags: HDF5, BigData, Visualization, FastSurface, mouse interaction, eventing, chunks, scene management</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

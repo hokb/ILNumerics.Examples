@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Coordinate Transforms, World -> Screen Coord Systems</Title>
+  <Description>
+    <![CDATA[<p>For complex visualizations transforms between screen and model/world coordinates are often needed. This examples creates a simple surface plot and 
+    adds 3 rectangles to it: </p> 
+    <ul><li>A red rectangle is embedded into the same group as the surface. It is able to get hidden by the surface in the common way. </li>
+    <li>A blue rectangle uses the same (3d, world) coordinates as the red rectangle. But this time, the blue rectangle was added to a Group being configured for 'Screen2DFar' 
+    rendering. I.e.: the blue line is drawn on top of regular objects, like the surface or the red rectangle. This can be seen from the output: the blue 
+    rectangle is always completely visible. Even those parts, which would otherwise be hidden by the surface.</li>
+    <li>A fat yellow rectangle is used to mark the <strong>screen area</strong> of the hull of both other rectangles. Note that the yellow rectangle 
+    will always be rendered i) on top of the surface and ii) screen axis aligned – regardless of the orientation of the objects in the world coordinate system.</li></ul>
+    <p>The example demonstrates how to transform from model view coordinate space into screen coordinate space in order to place objects in 
+    screen coordinates, with positions relating to objects in world coordinates. Since the transformation happens in the context of mouse event handlers, 
+    no rendering pipeline is available here. Hence, the collection and accumulation of the transformations from all relevant screen graph 
+    nodes must get implemented explicitly.</p>
+    <p>Start the app and rotate the scene with the mouse. Watch the area indicators (colored rectangles) change accordingly.</p>
+    <p>Transformations from screen space into model space work exactly the same: just reverse the transformation matrices in PlotCube_MouseMove.]]>  
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

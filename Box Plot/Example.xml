@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Example>
+  <Title>Creating box plots</Title>
+  <Description>
+    <p>
+      The following example demonstrates one application of ILNumerics.Drawing.BoxPlot. BoxPlot is highly customizable. 
+      Here, it is shown how the colors of lines, fill areas and points are changed, in order to highlight similarities and differences.
+    </p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>

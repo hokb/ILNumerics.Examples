@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Saving Scenes to Images</Title>
+  <Description>
+      <![CDATA[<p>A form is created showing a simple scene and two buttons. One button saves the current scene with all user interactions (rotation, zoom etc.) to a file on disk.</p>
+      <p>The other button creates a new scene in memory without showing it in the panel. The offline scene is then also saved to a file on disk.</p>
+      <p>This demonstrates how to handle scenes w/o Panel, using GDIDriver for saving scenes to image files, and which actions are needed in order to trigger rendering for 
+      Panel without Windows.Forms Paint events.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

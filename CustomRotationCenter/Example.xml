@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Rotate around arbitrary Rotational Center</Title>
+  <Description>
+    <p>The example shows a simple scene based on Camera. Common mouse interaction applies. A new interactive 
+    mode is enabled by attaching to the MouseDown event of the panel. In the event handler, for MouseDown events of the left 
+    mouse button together with the ALT key pressed, the current position of the mouse is taken as a new rotational center. 
+    Extended picking information are acquired first in order to determine the exact point <i>on the scene</i> the mouse clicked on. 
+    This point is marked with a red dot and taken as the new rotational center for all common rotations for now on. </p>
+    <p>The reset action taken when double clicking on the scene is still valid.</p>
+    <p>This example recognizes clicks on triangle surfaces only. One may extend it to also support clicks on lines / points / labels.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

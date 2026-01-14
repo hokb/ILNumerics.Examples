@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Marking Transparent Areas in a Plot</Title>
+  <Description>
+    <![CDATA[
+    <p>Two transparent areas are created in a line plot in order to emphasize certain regions of the plot. The area will 
+    always be transparently rendered on top of the line and markers and follow interactions by the user: panning, zoom and 
+    even rotation (for 3D plots) are supported.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

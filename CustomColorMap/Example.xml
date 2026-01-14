@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Example>
+  <Title>Auto Resolution</Title>
+  <Description>
+    <p>
+      The following example demonstrates the creation and application of a custom colormap.   
+    </p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>
+    

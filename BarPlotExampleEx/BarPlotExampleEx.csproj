@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Version6\ILNumerics.Drawing.Platforms\src\ILNumerics.Drawing.Platforms.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.Toolboxes\ILNumerics.Toolboxes.Drawing2\src\ILNumerics.Toolboxes.Drawing2.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Titles on Scenes Example</Title>
+  <Description><![CDATA[
+    <p>Titles display text in a bordered box on top of regular objects in the sceme. This example creates 
+    several titles on top of a simple scene. One title is created for each predefined positioning value. 
+    Custom configuration of titles is demonstrated by creating a title with a larger font and configuring 
+    larger padding values for it. The additional area is used to place several shapes on the title. </p>
+    <p>The titles can be moved with the mouse - functionality derived from ScreenObject. As common for 
+    all scene objects in ILNumerics Visualization Engine the objects contained are freely configurable: 
+    Border, Background, Label and all custom content.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

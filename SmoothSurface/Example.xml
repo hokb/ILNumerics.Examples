@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Smooth Data Surface (WPF / .NET 5.0)</Title>
+  <Description>
+    <p>SmoothSurface from the Visualization Extensions Toolbox [ILNumerics.Toolboxes.Drawing2] allows to visualize scattered data points very easily. The resolution of the interpolated grid and the smoothness factor 
+    are configured independently.</p>
+    <p>This example utilizes ILNumerics.Drawing.Plotting.SmoothSurface (Drawing Extensions Toolbox) via WPF in a .NET 5.0 project. It demonstrates the general setup of ILNumerics.Drawing.Panel in a .NET 5.0 WPF app, utilizing WindowsFormsHost.</p>
+    <p>Hint: if you experiencing problems during compile, telling you that the WindowsFormsHost was not found, you may want to add the 'UseWindowsForms' tag to your csproj file. See: https://stackoverflow.com/a/58845734/1215993</p>
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9GUBnqifbUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </p>
+    <p>See also: <a href="https://ilnumerics.net/scattered-data-smooth-surface.html">Online documentation: SmoothSurface [Vizualization Extensions Toolbox]</a></p>
+  </Description>
+  <Code>MainWindow.xaml.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

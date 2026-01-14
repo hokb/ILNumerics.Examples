@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Rotation Tool</Title>
+  <Description>
+    <p>The example limits the axes used for rotating the scene to the X and the Z axis. The result 
+    simulates the interactive rotation behaviour of other, more simple viewers. It demonstrates the attaching of custom mouse event handlers, the 
+  skipping of the default event handling in a custom event handler and the handling of the Matrix4 class to create rotational matrices.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

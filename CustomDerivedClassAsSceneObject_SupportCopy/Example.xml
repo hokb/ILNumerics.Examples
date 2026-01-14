@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Example of a custom scene graph object, supporting copy/clone operations</Title>
+  <Description>
+      <![CDATA[
+    <p>This example implements a 'cube' class which can be used just like other scene graph objects in ILNumerics Visualization Engine.
+    The examples uses the same instance of the 'cube' class two times in the scene: inside a plot cube and inside a second camera object. Both instances
+    are individually configurable but still use the same buffers. The example shows how both occurances are created, individually addressed and configured in the scene. 
+    </p><p>
+    Custom scene graph objects end up in synchronized copies used for rendering, hence can implement their own interactive behavior. In addition
+    to that, the class implemented here allows to get reused within a scene for several times. In order to do so, it implements all methods
+    required for Copy() operations.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

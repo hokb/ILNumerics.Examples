@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Full Featured Custom Scene Graph Object</Title>
+  <Description>
+    This example creates a brick class as fully featured custom scene graph object: the class fits into the copying scheme of ILNumerics Visualization Engine and is 
+    available to the rendering driver in the synchronized copy of the scene graph. It demonstrates which methods need to get implemented for which fetaure to work. 
+    See the accompanying documentation here: http://ilnumerics.net/custom-scene-graph-objects.html
+  </Description>
+  <Code>Brick.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

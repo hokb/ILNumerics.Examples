@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Unconstrained Optimization Demo + Plotting</Title>
+  <Description>
+      <![CDATA[
+    <p>This example demonstrates several minimization examples from the family of unconstrained optimization problems. It finds the minimum
+      of a simple quadratic function using BFGS, picks one minimum of a non-convex trigonometric function using BFGS, shows how to select individual
+      gradient computation functions, compares the performance of BFGS with L-BFGS when finding the minimum of the Rosenbrock and Camel-3 functions and
+      compares BFGS with the classical Newton method on the Rosenbrock function.</p>
+    <p>All examples are integrated into a small GUI application. User selects the example to run by clicking on the corresponding button. Each example 
+    creates individual output: the objective function is plotted and the solution or the path to the solution is shown. The comparison examples plot the 
+    objective function together with the path to the solution for each individual method. The progress of the optimization algorithm is plotted in a log-line 
+    plot above the function surface.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

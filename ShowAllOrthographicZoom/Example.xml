@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Auto Show-All Zoom on Orthographic Scene</Title>
+  <Description>
+    <![CDATA[<p>This example shows how to compute and apply a zoom factor to a scene with orthographic 
+    projection in order to make the camera show the whole content of the scene.</p>]]>  
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

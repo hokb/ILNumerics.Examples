@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>3D CAD View Example</Title>
+  <Description>
+    This example creates a simple form with 4 individual areas, one for each quadrant of the panel. 3 plot cubes display 2D views of an STL model.
+    The 4th view is a 3D view of the same model which is individually rotatable by the user. The ILCamera.ScreenRect property is used to   
+    distribute the models over the quadrants. The same model is loaded only once and reused for all views. No memory will be copied for the views. 
+    The example also includes the sample code for loading STL mesh data from files in binary and text mode.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
+               

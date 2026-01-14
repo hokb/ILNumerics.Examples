@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Updates for Dynamic Scene, Shared Buffers</Title>
+  <Description>
+      <![CDATA[<p>A ILNumerics.Drawing.Gear is used to demonstrate the effect on dynamic updates to shared buffers in a 3D scene.</p>
+      <p>
+    The application creates a gear shape (preconfigured Triangles) and a line strip which is used to mark some vertices of the gear. 
+    Lines and triangles share their Positions buffer. 
+    A UI slider is utilized in order to dynamically modify vertices of the triangles. Since both shapes share their buffers, 
+    updating the positions buffer of the triangles does at the same time also updates the Lines shape. </p>
+      ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

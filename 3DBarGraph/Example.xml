@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>3D Bar Graph Example</Title>
+  <Description>Creates a simple bar plot in 3D, similar to an ImageSC plot. Each element of the input matrix creates a bar, mapping the value of the element to the height and color of the bar. All bars are created by reusing and scaling a single unit cube shape. All bar share the same set of vertex buffers. However, they are still individually configurable: here we apply an individual color to each bar. </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

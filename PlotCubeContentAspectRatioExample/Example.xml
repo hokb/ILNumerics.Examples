@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Plotcube: Content related Aspect Ratio for 2D Plot</Title>
+  <Description>
+    <p>By default ILNumerics.Drawing.Plotting.PlotCube attempts to utilize all available rendering space. It considers all axes, ticks, labels - for each axis individually. The plotcube is scaled / positioned properly, in order to give all label / axis elements enough space to render and remain readable. Hence, the aspect ratio of the plotcube is mainly influenced by the available space of the form and the required space of the axis and labels surrounding the plot cube. The aspect ratio of the content is not considered by default. </p>
+<p>This example creates a surface in 2D view and displays it in the natural aspect ratio of its source data. It properly reacts to resizing of the form / the plot cube and adjusts the aspect ratio of the plot cubes DataScreenRect accordingly. Note, that the grid lines of the surface will always form exact squares.</p>
+<p>Adjust the orientation of the surface / the plot cube by clicking on the button "Orientation".</p>
+    <p>
+      See also: <a href="https://ilnumerics.net/plotcube-aspect-ratios.html">plotcube aspect ratios online documentation</a>.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

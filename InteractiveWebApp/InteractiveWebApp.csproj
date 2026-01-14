@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\_ViewStart1.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Version6\ILNumerics.Computing\src\ILNumerics.Computing.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.Core.Platforms\src\ILNumerics.Core.Platforms.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.Core.Runtime\src\ILNumerics.Core.Runtime.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.Core\src\ILNumerics.Core.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.Drawing\src\ILNumerics.Drawing.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.F2NET.LAPACK\src\ILNumerics.F2NET.LAPACK.csproj" />
+    <ProjectReference Include="..\..\Version6\ILNumerics.numpy\src\ILNumerics.numpy.csproj" />
+  </ItemGroup>
+
+</Project>

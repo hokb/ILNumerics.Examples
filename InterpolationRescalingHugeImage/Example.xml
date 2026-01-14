@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Resampling / rescaling Image with interp2; fast, dynamic Surface Display</Title>
+  <Description>
+    <p>An image (original size 750x750) is rescaled with the interp2 function from the Interpolation Toolbox and displayed by help of 
+    FastSurface. The new resolution can be adjusted by the user at runtime. The new result is displayed immediately. A NumericUpDown control is used to define the factor for the new 
+    scaling factor.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

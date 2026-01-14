@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Colorbar - Changing Data Range by Dragging with the Mouse</Title>
+  <Description>
+    <p>Example modifying the standard Colorbar screen object for extended interaction. The data range for the colorbar is
+    prepared to be editable with the mouse. The color data range of the attached surface object is changed dynamically by 
+    dragging with the mouse on the scale of the colorbar. The results are shown in the surface and presented on the fly.</p>
+    <p>This example demonstrates the following aspects: scene setup with surface and colorbar, mouse event registration
+      on the colorbar, event handling for dynamically updating the colorbar
+      provider data, updating surface objects for dynamic colormapped data ranges.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

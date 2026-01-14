@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>An interactive Cube of Cubes</Title>
+  <Description>
+    This example creates a number of cubes arranged to form a 3D block. All cubes are based on the same, single instance from the ILNumerics.Drawing.Shapes collection. 
+    Hence, they all share the same vertices. By placing them into individual group nodes we can configure certain properties individually: position, color, opacity. 
+    The mouse event for 'double click' is registered to reset the camera view to the initial default view. It is shown, how this interactive 
+    property is acting on the synchronized copy of the main scene. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
+               

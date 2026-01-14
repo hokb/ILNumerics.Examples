@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>STL Model Viewer (.NET Framework, WindowsForms)</Title>
+  <Description>
+    This app serves as a working STL model viewer. It loads the famous 'bunny.stl' (Stanford, included)
+    at startup. The model is viewed in a regular Camera node, i.e.: one can interact by rotation, translation, panning and zoom.
+    <p>Other models can be loaded from STL files. For display a Triangles shape is used. Lighting is enabled.</p>
+    <p>
+      The example demonstrates the setup of ILNumerics Visualization Engine in a WindowsForms project on .NET Core. After download and
+      extraction, make sure that the required dependencies are referenced from the GAC: ILNumerics.Core, ILNumerics.Computing, and ILNumerics.Drawing. See: <a href="https://ilnumerics.net/first-drawing-module.html">getting started</a>.
+    </p>
+    <p>
+      Note, that a license is embedded allowing to compile the unchanged project. Get a trial license in order to modify the code: <a href="https://ilnumerics.net/download.html">download trial</a>.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>

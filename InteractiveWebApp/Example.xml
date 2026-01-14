@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Plotting in a WebApp</Title>
+  <Description>
+    <p>A simple website is created from a ASP.NET Core Web App template. It generates a 3d plot on the server and updates an image on the client page dynamically. The user can rotate the plot cube arbitrarily. The result is displayed when she clicks on [Submit].</p>
+    <p>
+      This example demonstrates how to render scenes offline, i.e.: without a GUI framework providing a rendering target. The images are generated utilizing the GDI+ driver. It supports all features of the default (OpenGL) driver but does not require a graphics adapter.
+      This method is recommended when rendering scenes on a server. See here for details: <a href="https://ilnumerics.net/offscreen-rendering.html">ILNumerics offscreen rendering documentation</a>. 
+    </p>
+  </Description>
+  <Code>Pages/Image.cshtml.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

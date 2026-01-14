@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Spline Path connecting 3D Points</Title>
+  <Description>
+    The splinepath() function from ILNumerics Interpolation Toolbox is used to create a spline path connecting 20 random points in 
+    3D space. Original points are marked as dot-markers. The interpolating line is a regular blue line, realized as 3D line plot. 
+    The application provides a simple GUI with a button "Shuffle" and a slider. Pressing the button repositions the points in 3D space randomly. 
+    The slider controls the derivative of the spline interpolator at the lower end of the connecting line. All controls are used interactively and show the result immediately in the scene. 
+    <p>See also: <a href="smooth-spline-plots.html">SplinePlot</a> in ILNumerics.Toolboxes.Drawing2</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     
+               

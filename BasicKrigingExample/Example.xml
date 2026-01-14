@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Kriging Interpolation in .NET (C#, .NET 5.0)</Title>
+  <Description>
+    <p>Various kriging interpolations are performed on a sample dataset from a trigonometric function.</p>
+    <p>This example accompanies the contextual documentation in the toolbox online manual: <a href="kriging-interpolation-net.html">kriging-interpolation-net.html</a>
+  </p>
+    <p>Several 1D and 2D interpolations are performed. It is shown how error information are retrieved from kriging interpolations. The applications of custom variogram functions is demonstrated.</p>
+    <p>This example requires ILNumerics Interpolation Toolbox in ILNumerics Ultimate VS version 4.9 or later.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

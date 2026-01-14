@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>FFT Spectrum Analyzer</Title>
+  <Description>
+    <p>A simple Spectrum Analyzer is created. It records chunks of audio from the local computers microphone using the NAudio library. The signal is 
+    than preprocessed (windowed) and analysed efficiently and in real time using the ILNumerics Computing Engine and its FFT capabilities. The resulting 
+    spectrum is displayed continously in a form with a line plot. Peaks at maximum magnitude are found and emphasized with markers. The signal is shown in 
+    a logarithmic plot with frequency / dB scale. </p>
+    <p>The plot is getting updated frequently but remains its interactive capabilities nevertheless.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Computation</Category>
+</Example>     

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Removing Content from PlotCube</Title>
+  <Description>
+    <![CDATA[
+    <p>A simple surface plot is created inside a PlotCube. The user can dynamically remove and re-add the surface from the plot cube by clicking on the button. The scene updates immediately.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

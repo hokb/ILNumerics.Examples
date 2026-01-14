@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Colormaps, Multiple Cameras</Title>
+  <Description>
+    The example takes a predefined colormap and modifies it. The altered colormap is than used to color a sphere and displayed in a colorbar nect to the sphere. 
+    A second camera (plotcube, which derives from camera) is used to create a line plot overlay and shows the use of multiple, individually seperated areas within a single scene.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

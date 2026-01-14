@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Legend Example</Title>
+  <Description>
+    Two line plots are created and a legend is configured for them. The legend displays a small example of the actual line plot, including markers. For the label of the lines flexible tex expressions are utilized. 
+    Legends are screen objects: one can drag them with the mouse at runtime.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

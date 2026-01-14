@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Colormapped 3D Bar Plots using ILBarPlotEx (from v4.10)</Title>
+  <Description>
+    <p>
+      An example application demonstrates the using of ILBarPlotEx for meshgrid data visualisation. A sample dataset could be defined as vector, 2D matrix or 3D matrix in meshgrid format and visualized like bar plots. 
+      An each visualized bar plot is colormapped according to their height.
+      Try to change the plenty of parameters by several buttons and check boxes provided. The ILBarPlotEx object supports two color modes: solid color mapping(over X axis) and colormapped(over Z axis).</p>
+    <p>Use the track bar to change parameters and see the difference!</p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

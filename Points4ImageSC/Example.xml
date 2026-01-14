@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Fun with Points - composing Image Plots</Title>
+  <Description>
+    <p>This example demonstrates the utilization of Points for composing plots, similar to ImageSC. The Points are positioned along a grid. The colors are colormapped. </p>
+    <p>
+      See also: <a href="https://ilnumerics.net/imagesc-plots.html">ImageSC plots online documentation</a>.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

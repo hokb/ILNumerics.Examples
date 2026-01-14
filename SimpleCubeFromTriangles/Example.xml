@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Cheap cube made out of simple triangles</Title>
+  <Description>
+    <p>The Triangles class is used to construct a cube from triangles. Corner positions are defined only once and connected by indices efficiently. The cube is lit and the normals 
+    are shared between adjacent edges (hence the light looks a little funky here). A LineStrip object is used to emphasize the edges of the cube.</p>
+    <p>This example demonstrates the trade off one often has to make when building large...huge scenes. The cube here is constructed by sharing vertices which can lead to improved 
+    performance when a large number of such cubes are to be rendered. However, the vertex sharing comes with limitations in configurability and brings disadvantages in lighting.</p>
+    <p>See also: <a href="https://ilnumerics.net/scene-graph-shapes-and-buffers.html">Visualization documentation</a> online.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
+               

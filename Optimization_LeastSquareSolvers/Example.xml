@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Fitting Measurement Data to a Function + Visualization</Title>
+  <Description>
+      <![CDATA[<p>
+    Explains how to use the ILNumerics Optimization Toolbox in order to fit a nonlinear model to measurement data using least squares. Another 
+    example uses a similar approach to minimize the Beale function in two dimensions. Both, the source data and the fitted function are 
+    plotted together using ILNumerics Visualization engine.</p>
+    <p>This example is accompanying material for the online documentation for <a href="http://ilnumerics.net/nonlinear-least-squares.html">nonlinear least squares solvers</a>. </p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

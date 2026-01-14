@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Parallel Computing with TPL and ILNumerics</Title>
+  <Description>
+        <![CDATA[
+    <p>This examples demonstrates how ILNumerics can be used with TPL without threading or memory issues.</p>
+    <p>ILNumerics arrays can be used by separate threads in parallel - as long as all data are separated. Currently, each thread must load its own dataset. 
+    ILNumerics.Array&lt;T&gt; cannot be shared across thread boundaries. In some configurations, you may have to consider certain 
+    properties of TPL, too. This example describes your options and gives some background. Please, refer to the comments in the code below.</p>
+    <p>Topics covered: Configuring the ILNumerics thread pool, configuring the native memory pool on a thread base, investigating memory issues.</p>
+    ]]>
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Technical User Interfaces - flexible, fast, simple.</Title>
+  <Description><![CDATA[
+    <p>ILNumerics allows to combine arbitrary complex technical graphs, charts and plots. Everything is interactive and can be updated dynamically.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

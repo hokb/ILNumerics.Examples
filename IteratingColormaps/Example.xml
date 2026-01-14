@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Iterating Colormaps on a Parametric Surface Plot</Title>
+  <Description>
+    This interactive example demonstrates some of the interactive capabilities of ILNumerics Visualization Engine. All properties of all 
+    objects are fully configurable at runtime. Here we use two buttons to interactively iterate the current colormap used to color a surface (möbius strap).</Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

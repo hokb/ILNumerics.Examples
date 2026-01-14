@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>ILNumerics.Cell as Data Container</Title>
+  <Description>
+    Example demonstrating how to utilize the Cell array type in order to query complex multityped data from storages like DBs and use them as a container for efficient data storage, -transport and -retrieval.
+    A 'query' function is implemented which returns a Cell with string and numerical array data as elements (in a data table fashion). Data is returned to the 
+    main function and stored into a *.mat file by help of the MatFile class.
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     

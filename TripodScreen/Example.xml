@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Synchronized Cameras - A Custom Tripod Class</Title>
+  <Description>
+    <![CDATA[
+    <p>This example demonstrates the setup of a 2nd Camera object in the main scene. The new Camera hosts a simple 'tripod' made out of 3 labeled lines. Both cameras 
+    are synchronized so that the interaction applied to the main camera is similarly applied to the new camera. Therefore, a custom tripod is realized. It always follows the 
+    rotations of the main camera, indicating the directions of the 3 main axes: X,Y and Z.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

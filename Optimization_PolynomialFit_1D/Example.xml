@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Fitting a Polynomial Model to Measurement Data</Title>
+  <Description>
+    Explains how to use the ILNumerics Optimization Toolbox in order to fit a polynomial model to measurement data. 
+    Both, the source data and the fitted function is plotted together as line plots. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

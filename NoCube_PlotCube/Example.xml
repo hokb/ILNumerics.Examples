@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Aspect Ratio and Content Fit Modes Demo (PlotCube)</Title>
+  <Description>
+    <p>Two settings control the look and feel of plot cube data aspect ratio and size: AspectRatioMode and ContentFitMode. This demo 
+    applications allows you to toogle their settings individually at runtime. The data are computed from the sample terrain example data contained in ILNumerics. </p>
+    <p>See here for documentation on these settings: <a href="https://ilnumerics.net/plotcube-aspect-ratios.html">https://ilnumerics.net/plotcube-aspect-ratios.html</a>.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

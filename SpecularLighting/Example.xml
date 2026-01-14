@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Specular Lighting Example</Title>
+  <Description>
+    <p>
+      A simple Sphere is created and added to a common Camera node. This example demonstrates how to apply and modify light to filled objects. The color and shape of the specular reflection is
+      modified for the Sphere, the position of the default light in the scene is altered in order to move the reflection to a place where it becomes better visible.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>HDF5 Fill Dataset iteratively</Title>
+  <Description>
+    <![CDATA[
+    <p>This example demonstrate how to sequentially write to H5Dataset. An imagesc plot is drawn, filling the
+    whole form area. The user will drag selection rectangles on the image data. Every time the dragging
+    is ended by releasing the left mouse button, start and end positions of the mouse are appended to
+    an HDF5 file. The common selection rectangle is reused for the dragging operations. However, it is
+    reconfigured so it will not trigger a zoom event and the scene stays static.</p>
+    <p>Concepts explained: Creating HDF5 files, creating HDF5 datasets, 
+Locating datasets within H5File, determining the chunk size of datasets, determinining 
+the size of datasets, writing to datasets as partial writes, expanding datasets by appending 
+to an existing dataset content, creating imagesc plots, controlling the data screen size for 
+rendering plot cube content, deactivating certain standard mouse event handlers for plot cubes,
+handling mouse events by use of custom mouse event handlers.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Computation</Category>
+</Example>     

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Lighting</Title>
+  <Description>
+    <p></p>
+    <p>Tags: Visualization, mouse interaction, lighting, eventing</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

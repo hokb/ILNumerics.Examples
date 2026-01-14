@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Radiation Pattern Visualization</Title>
+  <Description>
+    <p>Directional, spherical radiation measurement data is read from a CSV file and is converted to a
+    parametric surface. Magnitude data forms the height of the sample points on a sphere and is additionally encoded as the color of the sample points.
+    The deformed 'sphere' is placed onto a 'ground' area (RectangleFilled) and can be fully rotated / translated
+    interactively with the mouse. Lighting is enabled by default. </p>
+    <p>Note, that the sphere is not fully closed, since only data for the angles 0...359 are provided.</p>
+    <p>The Camera is configured so that the pattern surface is placed into the center of the scene, together with the center of rotations with the mouse.</p>
+    <p>Variation: the data can also be visualized by means of a regular Surface. This would lead to a view similar to this image: </p>
+    <img src="/Examples/RadiationPatternVisualizationSphere/b_ArrayVisualizer_debug_data_surface_visualization.png" alt="Radiation Pattern as non-parametric Surface"/>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Image>a_Radiation Pattern Sphere Example.png</Image>
+  <Category>Plotting</Category>
+</Example>     
+               

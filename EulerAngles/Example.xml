@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Two options for rotating scenes</Title>
+  <Description>
+    The example shows both major options for rotating objects: Rotating the camera to produce the _impression_ of rotating the scene. And
+    rotating the scene or parts of it. The example creates 3 cameras in different quadrants of the panel. Each shows the same content (a
+    green hemisphere with a big red dot at the edge). Each displays the content rotated in a different manner:
+    The upper left quadrant shows the hemisphere unrotated. Both, camera and model are shown as they are created by default.
+    The upper right quadrant rotates the _model_ by applying several rotations to the ILCamera.Transform property, which is derived from ILGroup.
+    In the lower right quadrant the hemisphere was rotated by rotating the camera itself. Similar transformations have to be applied in order
+    to get the same result as for the upper quadrant. The transformations, however differ in sign and order. <br></br>
+    While producing similar results, using one method or the other is not the same: if you double click on the lower hemisphere
+    (the one, which was rotated using the camera) the camera position is reset and the hemisphere rotates back to initial state. Double clicking
+    on the upper right hemisphere on the other side, does not reset the hemisphere, because the corresponding camera has not been involved into the
+    rotation.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Reading and Writing Matlab data with ILNumerics</Title>
+  <Description>
+    This example demonstrates how to read HDF5 formatted Matlab mat files to ILNumerics, how to manipulate and save them, and also 
+	how to save ILNumerics.Array&lt;T&gt; to HDF5 formatted files, which can be later loaded in Matlab.
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     
+               

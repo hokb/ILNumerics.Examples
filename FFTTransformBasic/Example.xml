@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>FFT - Basic Transformations</Title>
+  <Description>Loads a dataset of binary samples from a file and does a 
+  number of transformations on it. The example shows how to do a simple fft 
+  transform and how to present the results as line plots in 3 individual plot cubes 
+  in a single ILPanel control. The plot cubes show the original time domain signal, 
+the transformed result as real and imaginary parts separately, and the computed magnitudes 
+of the frequency bins. All plot cubes receive some configurations, like axis configurations, 
+labeling and annotations (title, legend).</Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

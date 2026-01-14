@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Constrained Camera Interaction</Title>
+  <Description>
+    This example demonstrates how to implement a simple filter on scene graph objects. A PropertyChangedEvent handler is registered to
+    the common camera in the scene. It is used to control the setting of its LookAt point and to modify the camera interactively and
+    programmatically.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

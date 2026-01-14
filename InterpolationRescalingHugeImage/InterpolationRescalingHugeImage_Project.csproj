@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ILNumerics.Drawing.Platforms" Version="*" />
+    <PackageReference Include="ILNumerics.Toolboxes.Interpolation" Version="*" />
+    <PackageReference Include="ILNumerics.Toolboxes.Drawing2" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="hs-2009-25-aw-full_jpg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

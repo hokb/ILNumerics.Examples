@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Colorbar with Custom Ticks</Title>
+  <Description>
+    This example shows how to add minimum and maximum values to the ticks collection of a colorbar. It leaves the colorbar ticks in
+    automatic mode so the colorbar adapts the number of ticks shown to the size of the colorbar/ panel. The minimum and maximum values
+    are added to the standard ticks and therefore are always displayed.
+    The example utilizes the TickCreationFuncEx function for own configuration of the ticks.
+    <p>See: <a href="https://ilnumerics.net/axis-configuration.html#ticks-configuration">Ticks Configuration</a></p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Bar Plotting (2D and 3D) using ILBarPlot (from v4.10)</Title>
+  <Description>
+    <p>
+      An example application demonstrates how to use and customize bar plots. A sample dataset is defined as matrix and visualized as BarPlots. Try to change the plenty of parameters by several buttons and check boxes provided. The ILBarPlot object allows to configure the color for individual bars and bar groups.</p>
+    <p>Use the track bar to change parameters and see the difference!</p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

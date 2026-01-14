@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Selecting Data Coordinates with the Mouse</Title>
+  <Description>
+    This example labels the current mouse position in the coordinates of a line plot. It uses an inverted render pipeline 
+    to translate the viewport coordinates of the mouse into the data space (model) coordinate of the line plot group object, hosted in a plot cube. 
+    The coordinates are displayed in the forms title bar as text and updated while the mouse is moving over the scene.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Histogram Functions in .NET (C#, Visual Basic) with ILNumerics</Title>
+  <Description>
+    <p>In this example the use of various histogram functions in ILNumerics are demonstrated. The results are plotted in a plotting form. Bar plots 
+    are created by means of regular visualization objects from the ILNumerics Visualization Engine. The form provides numerous buttons for switching between 
+    the individual histogram interfaces: regular histogram function, cumulative histograms and normalized histograms. </p>
+    <p>
+      See the <a href="http://ilnumerics.net/histogram.html">online documentation for histogram functions</a>.
+    </p>
+    <p>
+      See the reference (api) documentation for histogram functions: <a href="http://ilnumerics.net/apidoc/?topic=html/M_ILNumerics_Toolboxes_Statistics_hist.htm">hist</a>,
+      <a href="http://ilnumerics.net/apidoc/?topic=html/M_ILNumerics_Toolboxes_Statistics_histc.htm">histc</a>,
+      <a href="http://ilnumerics.net/apidoc/?topic=html/M_ILNumerics_Toolboxes_Statistics_histn.htm">histn</a>, and
+      <a href="http://ilnumerics.net/apidoc/?topic=html/M_ILNumerics_Toolboxes_Statistics_histnc.htm">histnc</a>.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Statistics Toolbox</Category>
+</Example>     

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Morphing the datasets of two surfaces dynamically</Title>
+  <Description>
+    This example creates a surface which is getting updated / modified dynamically on each rendering frame. The data are 'blended' between
+    two predefined datasets. In addition to that, a button is used to switch the colormaps used for coloring the surface.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

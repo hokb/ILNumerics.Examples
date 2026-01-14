@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Flat Shading Colormap</Title>
+  <Description>
+    This example creates a colormap which can be used to simulate a flat shaded coloring. Keypoints from an
+    existing colormap are used as a starting point. Replicated keypoints are used to create flat areas
+    in the colormap. The colormap is than utilized in order to color example terrain data in a surface plot. The example
+    shows the surface based on the modified colormap as well as the same data colored with the original colormap. 
+    Both plots are arranged on the same panel for easier comparison. Colorbars are added to each surface which show the corresponding colormap. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

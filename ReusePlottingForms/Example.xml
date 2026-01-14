@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Reuse Plotting Forms (instead of recreating them)</Title>
+  <Description>
+This example demonstrates how to reuse your Panel plotting forms. 
+Instead of closing and recreating them later it is better to reuse the form. 
+A simple modification is done to the plotting form to redirect the Close() 
+call to a Hide() only. Form1 serves as the main/startup form. It maintains a 
+reference to the plotting_form. Instead of repeatedly recreating the plotting_form
+it simply calls Show() on the single, local instance 'myForm'. 
+</Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

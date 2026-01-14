@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDF5_CompoundData_PInvoke_Example", "HDF5_CompoundData_PInvoke_Example.csproj", "{388EAEDE-B550-432D-90DE-142CCE0CC52E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388EAEDE-B550-432D-90DE-142CCE0CC52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388EAEDE-B550-432D-90DE-142CCE0CC52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388EAEDE-B550-432D-90DE-142CCE0CC52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388EAEDE-B550-432D-90DE-142CCE0CC52E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE0830E-D50F-4C3B-A9F9-3780B1B3B9F2}
+	EndGlobalSection
+EndGlobal

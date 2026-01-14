@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Condition="!$(Configuration.StartsWith('Packages'))" Project="..\..\Version6\ILNumerics.Accelerator.Command\src\assets\ILNumerics.Accelerator.Command.props" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!--<TargetFrameworks Condition="!$(Configuration.ToLower().Contains('fast'))">net461;netstandard2.1;</TargetFrameworks>-->
+    <!--<TargetFrameworks Condition="$(Configuration.ToLower().Contains('fast'))">net6.0</TargetFrameworks>-->
+    <TargetFramework>net6.0</TargetFramework>
+    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+    <!--<Nullable>enable</Nullable>-->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ILNAServiceURI>http://localhost:5000</ILNAServiceURI>
+    <ILNAcceleratorEnabled>true</ILNAcceleratorEnabled>
+    <!--<ILNAServiceURI>file://D:\dev\ILNumerics-dev\Version6\ILNumerics.Accelerator.Core\src\bin\$(Configuration)\$(TargetFramework)\ILNumerics.Accelerator.Core.dll</ILNAServiceURI>
+    <ILNAServiceURI>file://D:\dev\ILNumerics-dev\Version6\ILNumerics.Accelerator.Core\src\bin\$(Configuration)\netstandard2.1\ILNumerics.Accelerator.Core.dll</ILNAServiceURI>
+    <ILNAServiceURI Condition="$(Configuration) == 'Accelerator_Debug_FastBuild'">file://D:\dev\ILNumerics-dev\Version6\ILNumerics.Accelerator.Core\src\bin\$(Configuration)\net6.0\ILNumerics.Accelerator.Core.dll</ILNAServiceURI>-->
+    <Configurations>Debug;Release;ProjectReferences_DEBUG;ProjectReferences_Release;Accelerator_Debug_FastBuild;Accelerator_Release_FastBuild;Packages_Release</Configurations>
+    <DefineConstants Condition="$(Configuration) == 'Accelerator_Debug_FastBuild'">DEBUG;$(DefineConstants)</DefineConstants>
+    <IncludeSymbols>False</IncludeSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Packages_Release|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='ProjectReferences_DEBUG|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='ProjectReferences_Release|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Accelerator_Debug_FastBuild|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Accelerator_Release_FastBuild|net6.0|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Packages_Release|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='ProjectReferences_DEBUG|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='ProjectReferences_Release|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Accelerator_Debug_FastBuild|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Accelerator_Release_FastBuild|net461|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.9" />
+    <PackageReference Condition="$(Configuration.StartsWith('Packages'))" Include="ILNumerics.Accelerator.Command" Version="7.2.34-rc02" />
+    <PackageReference Condition="$(Configuration.StartsWith('Packages'))" Include="ILNumerics.Computing" Version="7.2.34-rc02" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Condition="!$(Configuration.StartsWith('Packages'))" Include="..\..\Version6\ILNumerics.Computing\src\ILNumerics.Computing.csproj" />
+  </ItemGroup>
+
+  <Import Condition="!$(Configuration.StartsWith('Packages'))" Project="..\..\Version6\ILNumerics.Accelerator.Command\src\assets\ILNumerics.Accelerator.Command.targets" />
+
+</Project>

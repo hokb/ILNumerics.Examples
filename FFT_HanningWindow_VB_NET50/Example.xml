@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Visual Basic Line Plots, Visual Basic Computing Module</Title>
+  <Description>
+        <![CDATA[
+    This example demonstrates how an interactive plot with multiple lines is created and configured in Visual Basic (.NET50, Windows). The data are computed in a separate computing
+    class for more convenient syntax. Following concepts are shown:
+    <bl>
+      <li>use DataScreenRect to size &amp; position the data output area for the plot cube and get rid of unneeded margins around the plot</li>
+      <li>configure logarithmic axis scales</li>
+      <li>configure axis labels</li>
+      <li>configure manual ticks</li>
+      <li>add a legend to the plot</li>
+      <li>create and call a computing function/module in Visual Basic while utilizing all ILNumerics performance rules, with input and output arguments.</li>
+    </bl>]]>
+  </Description>
+  <Code>Form1.vb</Code>
+  <Category>Plotting</Category>
+</Example>     

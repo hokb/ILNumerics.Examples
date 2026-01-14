@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Extended Picking on 3D Objects</Title>
+  <Description>
+      <![CDATA[<p>A 3D plot based on a surface is created. Custom mouse event handling performs 3D picking on the object interactively. The information obtained from the picking routine is used to 
+    mark the 3D position of the mouse (not the screen position!) and the nearest 3D vertex with blue and red dots correspondingly. A tool tip label is displayed when the mouse hovers over the big red dot marking the nearest vertex.</p>
+    <p>The example gives insight into the application of the ILPanel.PickAt() method which is used to acquire detailed information about the 3D object at a specific screen position. It 
+    uses mouse event handling and combines 3D plot objects with regular scene graph objects in order to create a flexible and highly interactive application.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

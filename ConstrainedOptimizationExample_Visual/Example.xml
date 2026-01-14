@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Constrained Optimization + Visualization</Title>
+  <Description>
+      <![CDATA[<p>Explains how to use the ILNumerics Optimization Toolbox in order to find minimia of nonlinear functions, subject to constraints. 
+    The example application hosts 4 individual examples: 1D Bounds, 2D equalty constraints, inequalty constraints and combined 
+    inequalty- and bound constraints.</p> 
+    <p>Each example is activated by an individual button on the main example GUI. The ILNumerics Visualization Engine is utilized in order to plot the 
+    function and the solution together with the path passed from the start to the minimum.</p>
+    <p>This example serves as accompanying material for the online documentation for <a href="http://ilnumerics.net/constrained-optimization.html">
+    constrained optimization solvers</a>.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

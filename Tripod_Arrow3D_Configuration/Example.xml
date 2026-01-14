@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Tripod 3D Arrow Configuration Example</Title>
+  <Description>
+    <![CDATA[
+    <p>The Tripod class is able to display a fancy 3D tripod which can be used to better control axis restricted rotation of the scene. It is also useful for displaying miniature versions of the main scene.</p>
+    <p>The example accesses and configures several Tripod instances, positions them on the scene / the screen and configures colors and other properties for them.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

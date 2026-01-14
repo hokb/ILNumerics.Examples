@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<script>
+    function updateImage() {
+
+        var x = Math.max(Math.min(parseInt($('#rotX').val()), 360), 0); 
+        var y = Math.max(Math.min(parseInt($('#rotY').val()), 360), 0);
+        var z = Math.max(Math.min(parseInt($('#rotZ').val()), 360), 0);
+        $('#image1').attr("src", "/Image?rotX=" + x + "&rotY=" + y + "&rotZ=" + z); 
+        return false; 
+    }
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">ILNumerics Web View</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Learn about <a href="https://ilnumerics.net/docs">building technical apps with ILNumerics</a>.</p>
+    <p>Rotate the plotcube by 3 axes:</p>
+    <form action="/Image">
+        <p><div><span>X:</span><textarea id="rotX">110</textarea></div>&nbsp;
+            <div><span>Y:</span><textarea id="rotY">170</textarea></div>&nbsp;
+            <div><span>Z:</span><textarea id="rotZ">170</textarea></div>
+            <button type="submit" onclick="javascript:return updateImage();">Submit</button></p>
+    </form>
+    <img id="image1" src="/Image?rotX=110&rotY=140&rotZ=140" ondragstart="javascript:return false;" />
+</div>

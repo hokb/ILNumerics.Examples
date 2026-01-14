@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Tripod Extension for Camera</Title>
+  <Description>
+    The example implements a custom tripod for your scene. The default tripod is taken as a starting point. The first wireframe of the actual scene
+    is added to the tripod. As the result, a miniaturized version of the scene is shown as part of the tripod. It is derives the tripod interactive actions at runtime.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Areas on Top of Plots</Title>
+  <Description>
+    <p>This example creates a simple 'Area' class which holds a border (Lines shape), a filled background (Triangles), and a label. The objects are wrapped 
+  in a class Area for easy reusing. Instances of Area are displayed on top of other regular objects in a scene. They provide the full set of interactive options. 
+  Here, by clicking on an area displays its tag identifier in the forms title bar. Further, clicking on the first of the areas will move it to another location randomly.</p>
+<p>Area objects are drawn on top of other plot cube content. This is true, even while the Area is positioned in 3D space <em>behind</em> other objects. Rotate the plot cube 
+with the mouse in order to clearly see the geometrical relations of the objects. Note, how Aray objects stay on top: they are always drawn in front of all other objects.
+</p>
+</Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

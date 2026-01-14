@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Colormapped Circles with PlotCube</Title>
+  <Description>
+    <![CDATA[<p>The example creates a number of circle objects, based on ILNumerics.Drawing.Circle. The circles are placed within a PlotCube instance and 
+    are displayed as plotting objects. Scaling and axis handling works just like for regular plot objects. </p>
+    <p>The fill color for the circles is determined by mapping a certain value associated to them to a color by help of a colormap. For this example, the 
+    distance of the circle to the center in the X/Y plane is used for selecting a color from the colormap.</p>
+    <p>A colorbar is created and displayed next to the plot cube. It shows the range of values and the colors assigned to them. </p> 
+    <p>Note how the circles receive regular plotting features: the functionality of the plot cube is retained (rotation, panning etc.). Also, the circles
+    are placed in 3D space, hence become assigned a z-position: their order is clearly visible when rotating the plot cube.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

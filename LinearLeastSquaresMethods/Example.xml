@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Linear Least Squares Data Fitting Example</Title>
+  <Description>
+      <![CDATA[<p>Two example applications are combined in this Windows.Forms GUI: (1) fitting a line to measurement data using pinv and (2) fitting polynoms 
+      of various degrees to another measurement dataset using ridge_regression.</p> 
+    <p>Each example is activated by an individual button on the main example GUI. The ILNumerics Visualization Engine is utilized in order to plot the 
+    function and the solution together with the path passed from the start to the minimum.</p>
+    <p>This example serves as accompanying material for the online documentation for <a href="http://ilnumerics.net/linear-least-squares.html">
+    linear least squares</a>.</p>
+    ]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Plotcube: Maintaining Aspect Ratios</Title>
+  <Description>
+    <p>By default ILNumerics plotcube attempts to utilize all available rendering space. It considers all axes, ticks, labels - for each axis individually. 
+    The plotcube is scaled / positioned properly, in order to give all label / axis elements enough space to render and remain readable.
+    The scaling of the plotcube is computed for each axis (screen coordinates) individually. For some content and during rotations with 
+    the mouse this may lead to visible distortion of the content. Since version 5.4 it is possible to use PlotCube.AspectRatioMode = MaintainRatios 
+    to prevent the content from getting distorted this way. The drawback: the available rendering space is not utilized to the largest extent possible.</p>
+    <p>See also: <a href="https://ilnumerics.net/plotcube-aspect-ratios.html">plotcube aspect ratios online documentation</a>.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

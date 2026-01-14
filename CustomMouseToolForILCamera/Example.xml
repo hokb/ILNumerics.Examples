@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Mouse Tool with Camera</Title>
+  <Description>
+    The example demonstrates the implementation of a custom mouse tool: the user can select between standard mouse handling (rotating) for
+    a common Camera scene and a custom mouse tool. Latter draws a selection rectangle over the scene in a 2D style. The example prepares
+    for handling the 2D coordinates after the mouse is released. Once the mouse is released it prints a message box with the 2D viewport coordinates of the selection 
+    rectangle. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

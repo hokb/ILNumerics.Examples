@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Example>
+  <Title>Layered Area Plot</Title>
+  <Description>
+    <p>
+      The following example demonstrates the creation of a layered area plot based on arbitrary data. Furthermore, it is shown how single area plots can be adressed
+      and further modified in terms of area color, line color, line style and line width.
+    </p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>
+    

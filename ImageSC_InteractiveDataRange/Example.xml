@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Data Ranges for ImageSC Plots</Title>
+  <Description>
+    This example creates an ImageSC plot with a colorbar and two slider controls. The sliders are used to determine the lower and upper range of the data 
+    which correspond to the lower and upper color range of the colormap. Moving one slider immediately cause the imagesc plot to update its colors. The colorbar
+    updates its range. 
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

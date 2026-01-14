@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Efficient Rendering of Large Data (Colored Cubes)</Title>
+  <Description>
+    <p>25000 individual cubes are created. Each cube is positioned at random 3D coordinates. All cubes are rendered by a 
+    single Triangles shape. Wireframes are rendered by a single Lines shape. Vertices for both shapes are sharing the only PositionsBuffer with 
+    positions data for all faces (triangles) and lines.</p>
+    <p>The cubes are lit and capable of assigning individual colors / normals to the corner of each face. I.e., the vertex data for the corners 
+    of each cube are not shared among the faces of a cube. While more efficient vertex layouts are available, they are not used here for demonstration purposes: 
+  A productive application will hardly require more data to render / store for each cube. So you can use this app to evaluate your performance requirements.</p>
+    <p>Setup of the cubes data (positions and colors) is efficiently performed by ILNumerics Array features: subarrays, reshape, repmat and broadcasting of multidimensional arrays.</p>
+    <p>Run the app in Release mode without a Debugger attached and notice, how responsive zoom, rotation and panning operations are! </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
+               

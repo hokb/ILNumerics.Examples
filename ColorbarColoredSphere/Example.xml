@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Colormap colored Sphere</Title>
+  <Description>
+    This example creates a common sphere and colors its vertices according to their X coordinate
+    using a predefined colormap. A colorbar is used to indicate the mapping from color to data.
+    The following concepts are shown in the example: Adding predefined shapes to the scene, creating 
+    colormaps and using a colormap to color a shape's Colors buffer.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

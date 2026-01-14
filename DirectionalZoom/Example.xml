@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Directional Zoom in Camera</Title>
+  <Description>
+    <p>The standard zoom for Camera is replaced in this example by a 'directional' zoom. Instead of zooming in/out to the 
+    center of the view (LookAt point) the camera moves closer / zoomes towards the current mouse position.</p>
+    <p>A new mouse handler is implemented, replacing the standard mouse handler of ILNumerics.Drawing.Camera. 
+    Note, that the new handler performs the 
+    directional zoom only when the mouse is located over an object hold by this Camera! If, instead, the mouse is 
+    placed on the background of the scene or over some other Camera / plot cube object no effect will be visible and the 
+  common zoom feature will be performed (zooming in/out to the look-at point). </p>
+    <p>Run the example and place the mouse over the surface. Using the mouse wheel the view zooms in /out to the 
+    current position of the mouse.</p>
+    <p>Adjust the parameters inside the MouseWheel handler in order to tune how the zoom is performed (fast/slow). </p>
+    <p>A production ready solution still requires at least...: a) error handling b) limits for the zoom in/out maximum positions to prevent 
+    from clipping (camera.ZFar &amp; camera.ZNear).</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

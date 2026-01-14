@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Render many, selectable 3D Data Slices (advanced)</Title>
+  <Description>
+    <p>This example demonstrates a custom data visualization method with several advanced and semi-advanced aspects of ILNumerics Visualization Engine. At first, CSV data are read in. 
+    They contain dates and measurement data which are visualized as vertical slices, oriented axis aligned and parallel to the Y-Z plane. The slices are efficiently rendered using 
+    a single triangle strips shape (TrianglesStrip) without index buffer. The setup of the vertices positions buffer is conveniently done with very little n-dim array massaging, using the
+    subarray features of ILNumerics n-dim arrays. Here, a 4-dimensional array is used to configure all vertices at once.</p>
+    <p>Individual slices are colored according to a colormap.</p>
+    <p>The user can hold down the CTRL key and click on any slice. This triggers a picking operation. As a result, the slice is determined and its index is displayed in the title of the form.</p>
+    <p>Clicking the button [Export] exports the scene currently shown as PNG image. Here, the _synched_ scene currently shown is exported. In other scenarios, such as web applications, 
+    one would use a similar scheme to provide an arbitrary scene to an GDIDriver for rendering to an image file and subsequent delivering via the webserver.</p>
+    <p>An alternative rendering can be activated: instead of filled slices, only data limits are rendered for each slice, using simple lines. The slices can still be selected (picked) by 
+    clicking on a line. A compiler #define directive is used to activate lines instead of triangles: FILLEDSLICE. By default, triangles are rendered.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

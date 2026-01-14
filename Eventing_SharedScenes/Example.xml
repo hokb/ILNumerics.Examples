@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Sharing Scenes between Drivers/Panels - Global Scenes, Local Scenes, Synchronized Copies</Title>
+  <Description>
+    This example demonstrates how a global scene can be shared between two panels and how events are registered on objects of that scene.
+    It registers event handlers on both: the global scene as well as on the synchronized scenes maintained by each panel individually. Clicking on an visible object will
+    trigger both: events registered on the global scene as well as events registered on the individual synchronized copies. Events are displayed in the output window of Visual Studio.
+    While sharing the same global scene, both panels maintain individual graphical elements at the same time. The 'LocalScene' of any driver is utilized in order to display 
+    individual labels for each panel. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

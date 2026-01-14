@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Example>
+  <Title>Auto Resolution</Title>
+  <Description>
+    <p>
+      The following example shall demonstrate the creation of a colormapped matrix chart. While the columns indicate weekdays, the rows represent months. A third parameter
+      that is linked to the weekdays and months. Its values are indicated by different colors. 
+      Step by step it is shown how the squares and labels are created. Furthermore, information on colormapping is included.
+    </p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>
+    

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>HDF5 Compound Type Datasets and ILNumerics.Array of struct (C#) - using low level HDF.PInvoke API</Title>
+  <Description>
+    <p>
+      This example demonstrates the creation of a custom C# struct and how to store it into a HDF5 file, using ILNumerics and HDF.PInvoke.
+      The struct serves as element type T in regular Array<![CDATA[<T>]]> instances. However, since in version 5.5 ILNumerics.IO.HDF5 does
+      not yet support compound data types _directly_ we must use the low level API (HDF5.PInvoke) in order to create the datatypes and the
+      dataset in the HF5 file. Also, we must manually write and read the data from/into ILNumerics.Array<![CDATA[<T>]]> of appropriate sizes.
+    </p>
+    <p>
+      This example requires the ILNumerics.IO.HDF5 package.
+    </p>
+    <p>Read the Getting Started Guide on ILNumerics with .NET Core projects:<![CDATA[<a href="https://ilnumerics.net/first-computing-module.html">Link</a>.]]></p>
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     

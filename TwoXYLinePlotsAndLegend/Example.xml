@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Two XY line plots with markers and legend</Title>
+  <Description>
+      <![CDATA[<p>A simple and straight forward example creating two line plots, configured to display individual (different) 
+      markers each. The lines are annotated using a legend object. Legend items display a short segment of their corresponding 
+      line + the corresponding marker to help idenifying the line in the legend.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Example>
+  <Title>Contour Plots: Contour Level Configuration</Title>
+  <Description>
+    <p>
+      Contour levels on contour plots allow detailed configuration: next to the contour level value, color, width and label text, the levels are embedded into a surface plot. 
+      Line and tile visibility of the surface is respected. 
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>
+    

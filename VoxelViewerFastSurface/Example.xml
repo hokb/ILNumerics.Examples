@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Voxel Splices Viewer</Title>
+  <Description>
+    A voxel dataset is loaded from a resource. It consists out of 256 slices of size 256 x 256 voxels each. The FastSurface class from the ILNumerics.Toolboxes.Drawing2 package
+    is utilized to quickly navigate through the slices. Press the A key to step to the next slice, with 'B' the previous slice is shown.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

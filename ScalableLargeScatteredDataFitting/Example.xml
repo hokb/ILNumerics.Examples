@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Fitting Scattered Data in Chunks - Scalable for Huge Data (Kriging)</Title>
+  <Description>
+      <![CDATA[
+    <p>A scalable data fitter for large scattered data point clouds. Kriging interpolation is used to fit
+    a surface to a given set of scattered (random) data points in 2D. Since too many data points (10000) are provided to
+    be handled at once by kriging the set is split into multiple tiles. Each tile consists out of several grids and is computed
+    individually by taking the source data points inside its region as well as some surrounding data points into account. </p>
+    <p>This example was made to show the interactive capabilities of ILNumerics Visualization Engine. It displays the state of the 
+    computation of the tiles continously: the resulting tiles are shown in the final surface while they are being computed. A simple progress 
+    bar (made out of ScreenObject) is constantly updated and shown to the user as an overlay of the scene. The computation is done 
+    in a background thread, utilizing C#'s <code>async, await</code> feature. Updates to the scene from a background thread are 
+    demonstrated as well as several options to manage the threads during the computations.</p>
+    <p>Watch a video on youtube which shows the example in action: <a href="https://www.youtube.com/watch?v=sXOYSqreajU&feature=youtu.be">video</a>.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Connecting Tubes - Assembling Shapes</Title>
+  <Description>
+    <p>This example demonstrates how to assemble a scene out of individual shapes. It creates two 'pipes' from cylinder shapes and
+    connects them with a connecting piece. Latter is realized via a surface object based on torus data. The torus utilizes
+    a clipping plane in order to hide half of it. These preparations are reused for the second connecting piece in the scene by
+    reusing the torus object, applying subsequent modifications to it's copy afterwards. </p>
+    <p>The scene is setup with minimal effort. Its goal is to demonstrate how to combine and configure individual shapes. Not to mimic a 
+    3D CAD program.</p>
+    <p>Concepts explained: using groups (ILGroup) to scale / rotate and translate objects, making copies of objects by reusing them 
+    in the scene, using parametric surfaces in general visualization scenes (without plotcube), handling ILCamera.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

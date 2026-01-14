@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Voxel Volume Slice Viewer (Scattered Data)</Title>
+  <Description>
+    <p>A voxel dataset is loaded from a resource. It consists out of 256 slices of size 256 x 256 voxels each. The FastSurface class
+    is utilized to quickly visualize a cutting area with arbitrary orientation. The area is moved through the volume interactively and 
+    instantly displays the values projected on the area. Piecewise cubic interpolation is performed on the positions in order to compute 
+    the scattered values on the area from the original 3D dataset. </p>
+    <p>Extended interactive control is realized by 4 dots (ILNumerics.Drawing.Sphere) placed at the 4 z-axes of a regular plot cube. The dots mark the 4
+    corners of the cutting area. They are individually selected and deselected by the mouse. Selected dots turn red and now participate 
+    in moving in Z-direction by the '+' and '-' keys. This instantly relocates the cutting area and visualizes a different area of the volume. </p>
+    <p>Concepts demonstrated: 3D interpolation using interp3s, 2D interpolation using interp2, mouse interaction with arbitrary shapes, combining custom shapes with PlotCube axes.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

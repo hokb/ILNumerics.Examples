@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Example>
+  <Title>Stacked Area Plot</Title>
+  <Description>
+    <p>
+      The following example demonstrates the creation of a stacked area plot based on arbitrary data. It is possible to further configure the plot, by choosing a different colormap,
+      fill area and line color. 
+    </p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>
+    

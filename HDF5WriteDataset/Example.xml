@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>HDF5 Basic Dataset Handling: Write, Read, Hyperslabs</Title>
+  <Description>
+    <![CDATA[<p>
+    This example demonstrates basic HDF5 handling in ILNumerics. A new HDF5 file is created and a dataset is added. 
+    The dataset is read back in fully and partially using hyperslabs (subarrays in ILNumerics), columns and rows are appended and altered, attributes are created and iterated. 
+    </p>]]>
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Computation</Category>
+</Example>     

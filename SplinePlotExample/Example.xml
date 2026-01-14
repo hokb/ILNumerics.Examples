@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Smooth Plotting using SplinePlot</Title>
+  <Description>
+    <p>
+      A simple plot demonstrates how to use ILNumerics.Drawing.Plotting.SplinePlot to visualize smooth spline connected sample values. Two plots are created by using
+      LinePlot and SplinePlot. LinePlot draws a straight line through the points. SplinePlot created a smooth curve as not-a-knot spline,
+      connecting the same data points.
+    </p>
+    <p>Use the track bar to change the resolution of SplinePlot and see the difference!</p>
+  </Description>
+  <Code>Plotting Form1.cs</Code>
+  <Category>Interpolation</Category>
+</Example>     

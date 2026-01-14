@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Nonlinear Equation System PDL Least Squares Solver</Title>
+  <Description>
+      <![CDATA[<p>ILNumerics Optimization Toolbox is used to solve a system of nonlinear equations F(x) = 0. The equations are wrapped 
+      into a dedicated class and assemble a cost function which returns the output of 4 nonlinear functions according to the input 
+      of a 4 element vector. The Powell's Dog Leg least squares solver is used to find the minimum of </p>
+      <pre>argmin { || F(x) ||^2, subject to x in R^n</pre>
+      <p>The minimizer found corresponds to the solution x of the original equation F(x) = 0. The example is easily extensible to more dimensions and arbitrary cost functions F(x).</p>]]>
+  </Description>
+  <Code>Program.cs</Code>
+  <Category>Optimization</Category>
+</Example>     

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Mouse Wheel Handler for Camera</Title>
+  <Description>
+    The example demonstrates how the behavior of the mouse wheel can be changed on a regular camera. It registers a custom mouse wheel event handler
+    on the camera and moves the camera forward or backwards with the mouse wheel events. The modification is restricted within certain limits to ensure a stable 
+    user experience. 
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

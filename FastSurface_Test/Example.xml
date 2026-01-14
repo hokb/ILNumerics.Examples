@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Fast Surface Performance Test</Title>
+  <Description>
+      <![CDATA[<p>A small form allows to test the update speed of ILNumerics.Drawing.Plotting.FastSurface. Start the example in Release mode and without Debugger attached (CTRL+F5)!</p>
+      <p>By clicking on each of the two provided buttons a surface with varying resolutions is created and displayed. The time required for the update is measured and displayed in the forms title bar.</p>]]>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

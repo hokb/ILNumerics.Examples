@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Interactive Axis Configuration: Logarithmic Scales</Title>
+  <Description>
+    <p>Three buttons allow to configure this simple line plot at runtime: switching logarithmic / linear scales for X and Y axis individually. The third button 
+    switches renderer (OpenGL / GDI) on the fly. Both renderer produce equivalent results.</p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
+               

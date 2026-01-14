@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Custom Scene Objects and Colormaps</Title>
+  <Description>
+    This class creates a custom drawable object (derived from ILNumerics.Drawing.Group) which holds a number of points for rendering.
+    The resulting object is special, because its type will be populated to the synchronized tree. Instead of the
+    common base types (Group), this class adds all overloads which are necessary in order to find the
+    actual type (ColormappedPoints) in the synchronized render tree at runtime.
+    The type can be supplied with any logic which is executed at runtime in this synchronized version only. This is
+    interesting in order to give the object an individual interactive behavior, as one example. Here the object provides 
+    all needed data to the colorbar, hence serves as a genue ColormapDataProvider. (This is for demonstration purpose only! Use the
+    Colorbar.ColormapProvider property to assign a static colormap provider object!) This example may serve as a starting point for own scene graph object implementations.
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     

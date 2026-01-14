@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>Combined Line Plots, Large Data</Title>
+  <Description>
+    <![CDATA[<p>Three line plots are created. The data are generated from random numbers in a Computing Module. The lines are auto-colored and labeled with a legend. The 2D plot provides all default interactivity options: pan, zoom.</p>]]>  
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Plotting</Category>
+</Example>     
