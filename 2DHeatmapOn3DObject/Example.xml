@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Example>
+  <Title>2D Heatmap on a 3D object with ILNumerics (C#/.NET Example)</Title>
+  <Description>
+    <p>Sometimes you record sensor data from a set of sensors. The sensors may or may not be positioned on a regular grid. They might be tagged to some 
+    arbitrary 3D object. This example creates a 3D object in a regular scene (cylinder). A surface plot (without a plot cube!) is created based on individual 
+    X,Y,Z and color values. It visualizes the heatmap from the sensor data. The surface is 'wrapped' around the 3D object. This simulates the visualization of 
+    sensor data from a sensor grid on a 3D object.</p>
+    <p>Note that the specification of X,Y and Z data allows for any shape of the "sensor surface plot". However, be careful when using a too large grid! The colors will be interpolated automatically 
+    between adjacent sensor grid points. Such interpolation works as barycentric interpolation, it does not interpolate over the values of the colormap! Therefore, in order to 
+    prevent from such aliasing, one may needs to up-sample the sensor grid in a higher resolution. Interpolation.interp2 or Interpolation.kriging() can be used for this.
+    </p>
+  </Description>
+  <Code>Form1.cs</Code>
+  <Category>Visualization</Category>
+</Example>     
