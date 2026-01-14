@@ -137,7 +137,7 @@ namespace ConstrainedOptimizationExample_Visual {
             // create the scene
             var scene = new Scene()
             {
-                new PlotCube(twoDMode: false) {
+                new PlotCube(twoDMode: true) {
                     Children = {
                         // plot function
                         new Surface(z,x,y) { new Colorbar() },
@@ -239,7 +239,7 @@ namespace ConstrainedOptimizationExample_Visual {
             // create the scene
             var scene = new Scene()
             {
-                new PlotCube(twoDMode: false) {
+                new PlotCube(twoDMode: true) {
                     Children = {
                         // plot function
                         // new ILSurface(z,x,y) { new ILColorbar() },
