@@ -1,0 +1,10 @@
+
+8:07:11 PM
+System.MissingMethodException: Method not found: 'System.Drawing.Font ILNumerics.Drawing.Label.get_Font()'.
+   at ILNumerics.Drawing.Controls.OpenGL.OGLLabelRenderer.LabelHash..ctor(Label label)
+   at ILNumerics.Drawing.Controls.OpenGL.OGLLabelRenderer.DrawLabel(Label label, RenderParameter parameters)
+   at ILNumerics.Drawing.Controls.OpenGL.OGLDriver.drawOGLLabel(RenderParameter parameters, Label label)
+   at ILNumerics.Drawing.Controls.OpenGL.OGLDriver.DrawNode(Drawable node, RenderParameter parameters)
+   at ILNumerics.Drawing.PreprocessedShape.VisitNode(RenderParameter renderParams)
+   at ILNumerics.Drawing.Renderer.<RenderInternal>g__RenderTransparentShapes|87_0(IEnumerable`1 shapes, <>c__DisplayClass87_0& )
+   at ILNumerics.Drawing.Renderer.RenderInternal(RenderParameter renderParams, Group root1, Group root2)
