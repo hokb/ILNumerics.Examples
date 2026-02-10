@@ -38,3 +38,8 @@ Command line alternative: open the .NET CLI (or the Visual Studio developer prom
 ```bash
 dotnet run
 ```
+
+## Getting Help
+Find the ILNumerics [getting started guides](https://ilnumerics.net/Getting-Started-with-ILNumerics.html) on the ILNumerics website. 
+
+[ILNumerics documentation section](https://ilnumerics.net/docs.html)
