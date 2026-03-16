@@ -7,7 +7,7 @@ This project contains practical examples to help you learn, test, and apply [ILN
 
 ## Intro
 
-**ILNumerics** is a high-performance numerical library for .NET, focused on technical computing, visualization, and array-based development.
+**ILNumerics** is a high-performance numerical / C# math library for .NET, focused on technical computing, visualization, and array-based algorithm development.
 
 This repository is intended to:
 
