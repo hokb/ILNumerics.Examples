@@ -24,12 +24,16 @@ Whether you are getting started or looking for specific implementation patterns,
 ### 1) Clone the repository
 
 ```bash
-git clone https://github.com/<your-org-or-user>/ilnumerics-examples.git
-cd ilnumerics-examples
+git clone https://github.com/ILNumerics/ILNumerics.Examples
+cd ilnumerics.examples
 ```
 
-### 2) Load an example 
-Pick an example from its folder or use 'Folder View' in Visual Studio Solution Explorer to browse all examples. Load the example project file (note: project files have either the *.csproj or *.vbproj extension). 
+### 2) Select an example 
+Pick an example from its folder or use 'Folder View' in Visual Studio Solution Explorer to browse all examples. Load the example project file (note: project files have either the *.csproj or *.vbproj extension). Alternatively, just navigate into the example's folder to run the project from the dotnet CLI: 
+
+```bash
+cd Interpolation\BasicKrigingExample
+```
 
 ### 3) Run the project
 In recent versions of Visual Studio is it sufficient to just run the loaded project with or without debugging (or just hit F5). All package dependency resolution will be done automatically for you. 
